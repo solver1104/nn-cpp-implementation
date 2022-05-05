@@ -1,2 +1,2 @@
 # nn-cpp-implementation
-A work in progress Neural Network implementation developed purely from C++ STL using Genetic Algorithm to tune weights.
+A work in progress Neural Network implementation developed purely from C++ STL using Genetic Algorithm to tune weights. Note that it currently doesn't work very well, due to a few functions which need to be tuned, namely, the genetic fitness algorithm and the evolutionary mutation algorithm. Currently, the constants in the code are tuned to be used for recognizing 28x28 images of digits. Simply change the number of input, hidden, and output nodes to use the algorithm for learning other data sets.
